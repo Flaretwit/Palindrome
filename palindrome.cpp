@@ -11,7 +11,7 @@ int main() {
 	bool isValid = true;
 	int len = 0;
 	cout << "Enter in your input: \n";
-	cin >> input;
+	cin.getline(input, sizeof(input));
 	len = strlen(input);
 	//Discards punctuation
 	for(int i = 0; i < len; i++) {
