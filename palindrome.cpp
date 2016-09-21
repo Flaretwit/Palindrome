@@ -6,7 +6,7 @@
 #include <cstring>
 
 using namespace std;
-main() {
+int main() {
 	char input[81];
 	bool isValid = true;
 	int len = 0;
@@ -43,6 +43,6 @@ main() {
 		cout << "Not a Palindrome";
 	}
 
-
+	return 0;
 }
 
